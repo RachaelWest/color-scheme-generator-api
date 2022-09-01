@@ -1,0 +1,30 @@
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Carme&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1 id="title"> Scheme Colors</h1>
+    <div class="selector-container">
+        <input type="color" id="color-hex">
+        <select id="color-mode">           
+            <option value="monochrome" selected>Monochrome</option>
+            <option value="monochrome-dark">Monochrome Dark</option>
+            <option value="monochrome-light">Monochrome Light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic Complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button id="get-scheme-btn" class="button" type="submit">Get Color Scheme</button>
+    </div>
+    
+    <div id="colors-container"></div>
+        
+    <script src="index.js"></script>
+</body>
+</html>
